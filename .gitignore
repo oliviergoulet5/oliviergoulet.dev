@@ -141,3 +141,9 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Hugo
+archetypes/
+resources/
+public/
+hugo_stats.json
