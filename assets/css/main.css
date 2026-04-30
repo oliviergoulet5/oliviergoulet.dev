@@ -10,5 +10,9 @@
 }
 
 .prose .highlight {
-  @apply -mx-24 rounded-lg;
+  @apply md:-mx-24 rounded-lg;
+}
+
+.prose .highlight > * {
+  @apply overflow-x-auto
 }

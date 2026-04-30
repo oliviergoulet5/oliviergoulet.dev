@@ -61,7 +61,7 @@ add the following HTML to your webpage:
 ```html
 <efsc-project-adopter-logo-list projectid="ecd.openvsx"></efsc-project-adopter-logo-list>
 ```
-{{< figure class="-mx-24" src="./images/adopters.webp" caption="A list of project adopters for Open VSX as of May 2026" alt="A list of project adopters for the Open VSX project. From left to right: Broadcom, Coder, Ericsson, Gitpod, IBM, Onivim, SAP, TypeFox, VSCodium" >}} 
+{{< figure class="md:-mx-24" src="./images/adopters.webp" caption="A list of project adopters for Open VSX as of May 2026" alt="A list of project adopters for the Open VSX project. From left to right: Broadcom, Coder, Ericsson, Gitpod, IBM, Onivim, SAP, TypeFox, VSCodium" >}} 
 
 If you want to display a list of member organizations of a particular working
 group, you can add the following HTML:
@@ -70,7 +70,7 @@ group, you can add the following HTML:
 <efsc-member-logo-list type="working-group" collaboration="adoptium"></efsc-member-logo-list>
 ```
 
-{{< figure class="-mx-24" src="./images/members.webp" caption="List of logos from member organizations for the Adoptium Working Group" alt="List of logos from member organizations for the Adoptium Working Group. From left to right: Alibaba Cloud, Bloomberg Engineering, Canonical, Fujitsu, Google, IBM, iJUG Association, Microsoft, OpenElements, Rivos" >}} 
+{{< figure class="md:-mx-24" src="./images/members.webp" caption="List of logos from member organizations for the Adoptium Working Group" alt="List of logos from member organizations for the Adoptium Working Group. From left to right: Alibaba Cloud, Bloomberg Engineering, Canonical, Fujitsu, Google, IBM, iJUG Association, Microsoft, OpenElements, Rivos" >}} 
 
 To display a list of events, you can add the following HTML:
 
@@ -81,7 +81,7 @@ To display a list of events, you can add the following HTML:
   <efsc-pagination maxvisible="5" justify="center"></efsc-pagination>
 </efsc-collection>
 ```
-{{< figure class="-mx-24" src="./images/events.webp" caption="A list of events with the event filters and pagination components" alt="" >}}
+{{< figure class="md:-mx-24" src="./images/events.webp" caption="A list of events with the event filters and pagination components" alt="" >}}
 
 ## Try it out
 
