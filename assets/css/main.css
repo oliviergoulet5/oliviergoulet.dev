@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .container-tight {
+    @apply max-w-3xl;
+    max-width: 65ch; /* Matches .prose max-width */
+  }
+}
+
+.prose .highlight {
+  @apply -mx-24 rounded-lg;
+}

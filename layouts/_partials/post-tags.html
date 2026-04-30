@@ -1,0 +1,8 @@
+{{- with .GetTerms "tags" }}
+  <ul class="flex flex-wrap items-center gap-4">
+    {{- range . }}
+      <!-- todo: make this a link to the tag page. -->
+      <li><div class="inline rounded-full bg-neutral-900 py-4 px-6" href="{{ .RelPermalink }}">{{ .LinkTitle }}</div></li>
+    {{- end }}
+  </ul>
+{{- end }}

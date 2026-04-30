@@ -1,21 +1,25 @@
-baseURL = 'https://oliviergoulet.dev/'
-locale = 'en-us'
-title = 'Olivier Goulet'
+baseURL = "https://oliviergoulet.dev/"
+locale = "en-us"
+title = "Olivier Goulet"
+
+[taxonomies]
+  tag = "tags"
 
 [build]
   writeStats = true
 
+[markup]
+  [markup.highlight]
+    style = "tokyonight-night"
+    lineNos = true
+
 [[menus.main]]
-  name = 'Home'
-  pageRef = '/'
+  name = "Home"
+  pageRef = "/"
   weight = 10
 
 [[menus.main]]
-  name = 'Posts'
-  pageRef = '/posts'
+  name = "Posts"
+  pageRef = "/posts"
   weight = 20
 
-[[menus.main]]
-  name = 'Tags'
-  pageRef = '/tags'
-  weight = 30
