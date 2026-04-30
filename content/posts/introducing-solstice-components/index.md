@@ -77,7 +77,7 @@ To display a list of events, you can add the following HTML:
 ```html
 <efsc-collection pagesize="2" autoscroll="true">
   <efsc-event-filters></efsc-event-filters>
-  <efsc-event-list publishtarget=""></efsc-event-list>
+  <efsc-event-list></efsc-event-list>
   <efsc-pagination maxvisible="5" justify="center"></efsc-pagination>
 </efsc-collection>
 ```
