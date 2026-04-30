@@ -1,5 +1,8 @@
 <header class="py-8">
   <div class="container mx-auto">
-    <a class="font-semibold" href="/">Olivier Goulet</a>
+    <a class="font-semibold group" href="/">
+      {{ if not (.Page.IsHome) }}<i class="fa-solid fa-arrow-left transition-transform duration-100 group-hover:-translate-x-1" aria-hidden="true"></i>{{ end }} 
+      Olivier Goulet
+    </a>
   </div>
 </header>

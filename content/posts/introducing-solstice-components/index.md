@@ -5,6 +5,11 @@ cover:
   src: images/cover.jpg
   alt: ""
 tags: ["eclipse foundation", "library"]
+summary: |
+  We’ve rebuilt our component library from the ground up to be more flexible,
+  more stable, and easier to use. Now, whether you’re maintaining an Eclipse
+  project website or a Working Group site, you can integrate these components
+  with minimal configuration regardless of your website’s tech stack.
 ---
 
 We've rebuilt our component library from the ground up to be more flexible,

@@ -1,0 +1,21 @@
+{{ define "main" }}
+<h1 class="text-5xl font-medium">{{ .Title }}</h1>
+<ul class="flex gap-4 mt-24">
+  {{ range .Pages }}
+    <li class="w-full">
+      <a href="{{ .RelPermalink }}" class="flex gap-4 border-y border-neutral-700 py-6">
+        {{ $cover := .Params.cover }}
+        {{ with .Resources.GetMatch $cover.src }}
+          <img src="{{ .RelPermalink }}" alt="{{ $cover.alt }}" class="w-64 aspect-4/3 object-cover mr-4 rounded-xl">
+        {{ end }}
+        <div>
+          <h2 class="text-2xl font-medium">
+            {{ .Title }}
+          </h2>
+          {{ .Summary | truncate 400 }}
+        </div>
+      </a>
+    </li>
+  {{ end }}
+</ul>
+{{ end }}
