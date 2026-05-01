@@ -23,7 +23,7 @@
       {{ $count := len (where .Site.RegularPages "Section" "posts") }}
       {{ if lt $count 3 }}
         {{ range seq (sub 3 $count) }}
-          <li class="hidden md:block">
+          <li data-animate-post class="hidden md:block">
             <div class="h-full p-4 rounded-lg bg-neutral-900 opacity-50">
               <div class="bg-neutral-700 h-64 rounded-lg mb-4"></div>
               <h3 class="text-2xl font-medium mb-2">Coming soon...</h3>
@@ -33,7 +33,7 @@
         {{ end }}
       {{ end }}
       {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
-      <li>
+      <li data-animate-post>
         <a class="block h-full p-4 rounded-lg bg-neutral-900 transition-transform hover:-translate-y-3" href="{{ .RelPermalink }}"> 
           {{ $cover := .Params.cover }}
           {{ with .Resources.GetMatch $cover.src }}
