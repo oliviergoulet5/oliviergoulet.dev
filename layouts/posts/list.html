@@ -1,9 +1,15 @@
 {{ define "main" }}
 <h1 class="text-5xl font-medium">{{ .Title }}</h1>
-<ul class="flex gap-4 mt-24">
+{{ with .OutputFormats.Get "RSS" }}
+  <a class="text-5xl font-medium text-neutral-400 hover:text-yellow-400 transition-color duration-300 cursor-pointer" href="{{ .Permalink }}">Subscribe here <i class="fa-solid fa-rss fa-sm" aria-hidden="true"></i></a>
+{{ end }}
+<div class="text-2xl py-4">
+{{ .Content }}
+</div>
+<ul class="flex flex-col gap-4 mt-12">
   {{ range .Pages }}
     <li class="w-full">
-      <a href="{{ .RelPermalink }}" class="flex gap-4 border-y border-neutral-700 py-6">
+      <a href="{{ .RelPermalink }}" class="flex gap-4 border rounded-lg border-neutral-700 p-6 transition-color duration-300 hover:bg-neutral-700">
         {{ $cover := .Params.cover }}
         {{ with .Resources.GetMatch $cover.src }}
           <img src="{{ .RelPermalink }}" alt="{{ $cover.alt }}" class="w-64 aspect-4/3 object-cover mr-4 rounded-xl">
@@ -12,6 +18,9 @@
           <h2 class="text-2xl font-medium">
             {{ .Title }}
           </h2>
+          <p class="text-sm text-neutral-500 mb-2">
+            {{ .Date.Format "2 January 2006" }}
+          </p>
           {{ .Summary | truncate 400 }}
         </div>
       </a>
