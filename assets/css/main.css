@@ -20,3 +20,7 @@
 .prose .highlight > * {
   @apply overflow-x-auto
 }
+
+.footnotes {
+  @apply text-sm text-neutral-400;
+}
