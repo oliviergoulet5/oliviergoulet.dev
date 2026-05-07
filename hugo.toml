@@ -1,5 +1,5 @@
 baseURL = "https://oliviergoulet.dev/"
-locale = "en-us"
+locale = "en-ca"
 title = "Olivier Goulet"
 
 [taxonomies]
