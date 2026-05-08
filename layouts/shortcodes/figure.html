@@ -1,0 +1,4 @@
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+  <img src="{{ path.Join .Page.RelPermalink (.Get "src") | absURL }}"{{ with .Get "alt" }} alt="{{ . }}"{{ end }}>
+  {{- with .Get "caption" }}<figcaption><p>{{ . }}</p></figcaption>{{ end -}}
+</figure>

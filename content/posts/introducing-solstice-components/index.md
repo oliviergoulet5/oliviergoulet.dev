@@ -49,10 +49,11 @@ their technical expertise or the tech stack they were using.
 
 ## Introducing our new component library 
 
-Our new library, *Solstice Components*, is built on Web Components, a native
-web platform feature that allows us to define *custom* HTML elements. This
-makes the components extremely simple to use: just drop them into your markup
-like any standard HTML tag. No build step required, it works out of the box.
+Our new library, *[Solstice Components](https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/solstice-components)*, 
+is built on Web Components, a native web platform feature that allows us to
+define *custom* HTML elements. This makes the components extremely simple to
+use: just drop them into your markup like any standard HTML tag. No build step
+required, it works out of the box.
 
 Web Components are designed to integrate into any web page, regardless of the
 underlying technology. This means you can use our components in a React app, a
