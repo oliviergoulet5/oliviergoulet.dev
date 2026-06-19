@@ -2,7 +2,7 @@
 title: "We redesigned the documentation to our official Hugo theme"
 date: 2026-05-27T16:00:00-05:00
 cover:
-  src: images/cover.webp
+  src: "images/cover.webp"
   alt: ""
 tags: ["eclipse foundation", "library"]
 summary: |
@@ -25,9 +25,9 @@ brand refresh from last year.
 
 We have reorganized the documentation into several comprehensive sections:
 
-- **Components**: A catalog of all the components included in the theme, with detailed
-  documentation for each one, including usage guidelines, code examples, and
-  visual demos.
+- **Shortcodes**: A catalog of all the shortcodes included in the theme, with
+  detailed documentation for each one, including usage guidelines, code
+  examples, and visual demos.
 - **Front Matter**: A reference for all the front matter parameters that can be used to
   customize the behavior and appearance of an individual webpage, with examples of how to use
   them in your content files.
@@ -66,6 +66,3 @@ project site, a Working Group website, or another type of web presence, the
 Hugo Solstice Theme helps you get started quickly, delivers an excellent
 experience for your visitors, and includes the Eclipse Foundation brand styling
 by default.
-
-Refer to the [getting started](https://webdev.eclipse.org/docs/hugo/getting-started) 
-guide to learn to get up and running with the theme.
