@@ -1,5 +1,5 @@
 ---
-title: "We redesigned the documentation to our official Hugo theme"
+title: "We redesigned the documentation to our official Hugo website theme"
 date: 2026-06-22T16:00:00-05:00
 cover:
   src: "images/cover.webp"
