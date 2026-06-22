@@ -1,6 +1,6 @@
 ---
 title: "We redesigned the documentation to our official Hugo theme"
-date: 2026-05-27T16:00:00-05:00
+date: 2026-06-22T16:00:00-05:00
 cover:
   src: "images/cover.webp"
   alt: ""
