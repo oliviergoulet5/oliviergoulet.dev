@@ -66,3 +66,8 @@ project site, a Working Group website, or another type of web presence, the
 Hugo Solstice Theme helps you get started quickly, delivers an excellent
 experience for your visitors, and includes the Eclipse Foundation brand styling
 by default.
+
+Get started with Hugo Solstice Theme by bootstrapping your site using the
+starter [boilerplate project](https://gitlab.eclipse.org/eclipsefdn/software-dev/frameworks-and-tools/hugo-eclipsefdn-website-boilerplate),
+or install Hugo Solstice Theme directly from
+[NPM](https://www.npmjs.com/package/eclipsefdn-hugo-solstice-theme).
