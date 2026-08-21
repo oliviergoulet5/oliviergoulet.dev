@@ -3,5 +3,5 @@
   {{- with .Title }} title="{{ . }}"{{ end -}}
   {{- if $u.IsAbs }} rel="external" target="_blank"{{ end -}}
 >
-  {{- with .Text }}{{ . }}{{ end -}}
+{{- with .Text }}{{ . }}{{ end -}}
 </a>
